@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+:root {
+
+    /*COLORS AND FONTS */
+
+    --color01: #436EEE;
+    --color02: #66CD00;
+    --color03: #fff;
+    --color04: #7a7777;
+    --color05: #25470393;
+    --color06: #3e7409; 
+
+}
+
+@media screen and (min-width: 360px) {
+    .header {
+        height: 10vh;
+        background-color: var(--color01);
+        color:var(--color03);
+        font-size: 2rem;
+        padding: 20px;
+    }
+
+    .main {
+        display: flex;
+    }
+
+    .columnName {
+        height: 83.5vh;
+        width: 40vw;
+        background-color: var(--color03);
+    }
+    .columnForm {
+        background-color: var(--color03);
+        height: 83.5vh;
+        width: 60vw;
+    }
+
+    .titleName {
+        color: var(--color01);
+        margin-top: 5vh;
+        margin-left: 10vw;
+        font-size: 2rem;
+    }
+    .name {
+        color: var(--color04);
+        margin-top: 2vh;
+        margin-left: 10vw;
+    }
+    .titleForm {
+        color: var(--color01);
+        margin-top: 5vh;
+        margin-left: 5vw;
+        margin-bottom: 5vh;
+        font-size: 2rem;
+    }
+
+    .input {
+        height: 5vh;
+        width: 50vw;
+        margin-top: 1vh;
+
+        outline: 0;
+        
+    }
+
+    .inputTextArea {
+        height: 35vh;
+        width: 50vw;
+        margin-top: 1vh;
+
+        outline: 0;
+    }
+
+    .buttonSubmit {
+        height: 8vh;
+        width: 51vw;
+        background-color: var(--color02);
+        outline: 0;
+        border: 1px solid #25470393;
+        box-shadow: 1px 1px 1px var(--color05);
+
+        color: var(--color03);
+    }
+
+    .buttonSubmit:hover {
+        cursor: pointer;
+        background-color: var(--color06);
+
+    }
+}
+
+@media screen and (min-width: 600px){
+    
+}
+
+@media screen and (min-width: 1000px) {
+    
+}
