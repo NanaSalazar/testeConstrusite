@@ -16,12 +16,12 @@
         </div>
         <div class="columnForm">
             <h3 class="titleForm">Mensagem:</h3>
-            <form action="">
+            <form method="post" action="php/Validate.php" id=form>
                 <input type="text" name="nName" id="iName" class="input" placeholder="Nome*" maxlength="30" required>
-                <input type="tel" name="nTel" id="iTel" class="input" placeholder="Telefone*">
-                <input type="email" name="nEmail" id="iEmail" class="input" placeholder="Email*">
-                <textarea name="nMessage" id="iMessage" cols="30" rows="10" class="inputTextArea" placeholder="Mensagem*"></textarea>
-                <button type="submit" class="buttonSubmit">Enviar Mensagem</button>
+                <input type="tel" name="nTel" id="iTel" class="input" placeholder="Telefone*" min="9" max="10" required>
+                <input type="email" name="nEmail" id="iEmail" class="input" placeholder="Email*" required>
+                <textarea name="nMessage" id="iMessage" cols="30" rows="10" class="inputTextArea" placeholder="Mensagem*" required></textarea>
+                <button type="submit" class="buttonSubmit" name="send" id="buttonSubmit">Enviar Mensagem</button>
             </form>
         </div>
     </main>
