@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'Handel Gothic';
+    src: url(handel-gothic.otf);
+}
+
 :root {
 
     /*COLORS AND FONTS */
@@ -9,7 +14,8 @@
     --color03: #fff;
     --color04: #7a7777;
     --color05: #25470393;
-    --color06: #3e7409; 
+    --color06: #3e7409;
+    --font: 'Hander Gothic', Arial; 
 
 }
 
@@ -42,6 +48,7 @@
         margin-top: 5vh;
         margin-left: 10vw;
         font-size: 2rem;
+        font-family: var(--font);
     }
     .name {
         color: var(--color04);
@@ -54,6 +61,7 @@
         margin-left: 5vw;
         margin-bottom: 5vh;
         font-size: 2rem;
+        font-family: var(--font);
     }
 
     .input {
